@@ -39,7 +39,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_id.png" />
+                              <Image url="@../../../../resources/icons/ic_id.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -56,7 +56,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_spell_check.png" />
+                              <Image url="@../../../../resources/icons/ic_spell_check.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -73,7 +73,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model2.png" />
+                              <Image url="@../../../../resources/icons/ic_layers.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -90,7 +90,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_select_all2.png" />
+                              <Image url="@../../../../resources/icons/ic_select_all2.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -107,7 +107,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_numbering.png" />
+                              <Image url="@../../../../resources/icons/ic_numbering.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -124,7 +124,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model.png" />
+                              <Image url="@../../../../resources/icons/ic_layers2.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -141,7 +141,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_full_screen_reading.png" />
+                              <Image url="@../../../../resources/icons/ic_full_screen_reading.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -163,7 +163,7 @@
          <graphic>
             <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/icons/general/png/48/ic_add.png" />
+                  <Image url="@../../../../resources/icons/ic_add.png" />
                </image>
             </ImageView>
          </graphic>
@@ -183,7 +183,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/general/png/48/ic_group_find.png" />
+                              <Image url="@../../../../resources/icons/ic_group_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -200,7 +200,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_id_find.png" />
+                              <Image url="@../../../../resources/icons/ic_id_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -217,7 +217,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_spell_check_find.png" />
+                              <Image url="@../../../../resources/icons/ic_spell_check_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -234,7 +234,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model2_find.png" />
+                              <Image url="@../../../../resources/icons/ic_layers2_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -251,7 +251,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_select_all2_find.png" />
+                              <Image url="@../../../../resources/icons/ic_select_all2_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -268,7 +268,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_numbering_find.png" />
+                              <Image url="@../../../../resources/icons/ic_numbering_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -285,7 +285,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model_find.png" />
+                              <Image url="@../../../../resources/icons/ic_layers_find.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -302,7 +302,7 @@
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../resources/icons/text/png/48/ic_full_screen_reading_find.png" />
+                              <Image url="@../../../../resources/icons/ic_full_screen_reading.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -324,7 +324,7 @@
          <graphic>
             <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/icons/general/png/48/ic_monitor.png" />
+                     <Image url="@../../../../resources/icons/ic_monitor.png" />
                </image>
             </ImageView>
          </graphic>

@@ -19,7 +19,7 @@
                <items>
                   <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../resources/icons/general/png/48/ic_administrator.png" />
+                        <Image url="@../../resources/icons/ic_administrator.png" />
                      </image>
                   </ImageView>
                   <Label text="SISTEMA DE ENSINO INDIVIDUALIZADO - ADMINISTRAÇÃO">
@@ -34,7 +34,7 @@
                       <graphic>
                           <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                               <image>
-                                  <Image url="@../../resources/icons/general/png/48/fullscreen-icon.png" />
+                                  <Image url="@../../resources/icons/ic_fullscreen.png" />
                               </image>
                           </ImageView>
                       </graphic>

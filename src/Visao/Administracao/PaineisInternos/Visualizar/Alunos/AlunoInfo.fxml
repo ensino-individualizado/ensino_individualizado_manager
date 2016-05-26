@@ -46,12 +46,12 @@
                           </Label>
                         <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
                            <image>
-                              <Image url="@../../../../../resources/icons/general/png/48/ic_man.png" />
+                              <Image url="@../../../../../resources/icons/ic_man.png" />
                            </image>
                         </ImageView>
                         <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
                            <image>
-                              <Image url="@../../../../../resources/icons/general/png/48/ic_calendar.png" />
+                              <Image url="@../../../../../resources/icons/ic_calendar.png" />
                            </image>
                         </ImageView>
                         <DatePicker fx:id="nascimento" disable="true" layoutX="70.0" layoutY="115.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="115.0" />

@@ -11,7 +11,7 @@
     <children>
         <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
             <image>
-                <Image url="@../../../../../resources/icons/networking/png/48/ic_chat.png" />
+                <Image url="@../../../../../resources/icons/ic_chat.png" />
             </image>
         </ImageView>
         <Label layoutX="63.0" layoutY="15.0" text="Nome" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0">
@@ -36,7 +36,7 @@
         </TextArea>
         <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="312.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
             <image>
-                <Image url="@../../../../../resources/icons/text/png/48/ic_select_all2.png" />
+                <Image url="@../../../../../resources/icons/ic_select_all2.png" />
             </image>
         </ImageView>
         <Label layoutX="63.0" layoutY="90.0" styleClass="texto-fonte-padrao" text="Descrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0" />

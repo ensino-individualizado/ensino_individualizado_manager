@@ -13,7 +13,7 @@
     <children>
         <ImageView layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
             <image>
-                <Image url="@../../../../../resources/icons/general/png/48/ic_man.png" />
+                <Image url="@../../../../../resources/icons/ic_man.png" />
             </image>
         </ImageView>
         <Label layoutX="63.0" layoutY="14.0" styleClass="texto-fonte-padrao" text="Nome" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
@@ -26,7 +26,7 @@
         </TextField>
         <ImageView layoutX="14.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="165.0">
             <image>
-                <Image url="@../../../../../resources/icons/communications/png/48/ic_group2.png" />
+                <Image url="@../../../../../resources/icons/ic_group2.png" />
             </image>
         </ImageView>
         <Label layoutX="69.0" layoutY="150.0" text="Turma" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="165.0">
@@ -45,7 +45,7 @@
         <DatePicker fx:id="data_nascimento" layoutX="70.0" layoutY="117.0" prefHeight="25.0" prefWidth="515.0" promptText="Digite a data no formado DD/MM/AAAA ou clique no botão ao lado para selecioná-la" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="115.0" />
         <ImageView layoutX="361.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
             <image>
-                <Image url="@../../../../../resources/icons/general/png/48/ic_calendar.png" />
+                <Image url="@../../../../../resources/icons/ic_calendar.png" />
             </image>
         </ImageView>
     </children>

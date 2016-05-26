@@ -34,22 +34,22 @@
         </Label>
         <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
             <image>
-                <Image url="@../../../../../resources/icons/text/png/48/ic_spell_check.png" />
+                <Image url="@../../../../../resources/icons/ic_spell_check.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
             <image>
-                <Image url="@../../../../../resources/icons/multimedia/png/48/ic_radio_microphone.png" />
+                <Image url="@../../../../../resources/icons/ic_radio_microphone.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="510.0" AnchorPane.topAnchor="15.0">
             <image>
-                <Image url="@../../../../../resources/icons/networking/png/48/ic_satellite2.png" />
+                <Image url="@../../../../../resources/icons/ic_image.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="275.0">
             <image>
-                <Image url="@../../../../../resources/icons/general/png/48/ic_video.png" />
+                <Image url="@../../../../../resources/icons/ic_video.png" />
             </image>
         </ImageView>
         <Label text="Video" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="275.0" />
@@ -61,7 +61,7 @@
         </ScrollPane>
         <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="510.0" AnchorPane.topAnchor="275.0">
             <image>
-                <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+                <Image url="@../../../../../resources/icons/ic_change_lowercase.png" />
             </image>
         </ImageView>
         <Label text="Imagem" AnchorPane.leftAnchor="565.0" AnchorPane.topAnchor="15.0" />
@@ -75,7 +75,7 @@
           <graphic>
               <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                      <Image url="@../../../../../resources/icons/multimedia/png/48/ic_play.png" />
+                      <Image url="@../../../../../resources/icons/ic_play.png" />
                   </image>
               </ImageView>
           </graphic>
@@ -89,7 +89,7 @@
           <graphic>
               <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                      <Image url="@../../../../../resources/icons/multimedia/png/48/ic_play.png" />
+                      <Image url="@../../../../../resources/icons/ic_play.png" />
                   </image>
               </ImageView>
           </graphic>

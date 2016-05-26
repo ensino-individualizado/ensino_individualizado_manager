@@ -17,7 +17,7 @@
            <graphic>
                <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                    <image>
-                       <Image url="@../../../../resources/icons/text/png/48/ic_search.png" />
+                       <Image url="@../../../../resources/icons/ic_search.png" />
                    </image>
                </ImageView>
            </graphic>
@@ -40,7 +40,7 @@
            <graphic>
                <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="-4.0">
                    <image>
-                       <Image url="@../../../../resources/icons/general/png/48/ic_trash_can.png" />
+                       <Image url="@../../../../resources/icons/ic_trash_can.png" />
                    </image>
                </ImageView>
            </graphic>
@@ -53,7 +53,7 @@
            <graphic>
                <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                    <image>
-                       <Image url="@../../../../resources/icons/general/png/48/ic_group_edit.png" />
+                       <Image url="@../../../../resources/icons/ic_group_edit.png" />
                    </image>
                </ImageView>
            </graphic>
@@ -66,7 +66,7 @@
          <graphic>
             <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/icons/general/png/48/ic_info.png" />
+                  <Image url="@../../../../resources/icons/ic_info.png" />
                </image>
             </ImageView>
          </graphic>

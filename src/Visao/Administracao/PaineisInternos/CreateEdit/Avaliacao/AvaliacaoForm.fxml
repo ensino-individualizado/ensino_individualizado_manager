@@ -27,24 +27,24 @@
             </ScrollPane>
             <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
                <image>
-                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+                  <Image url="@../../../../../resources/icons/ic_change_lowercase.png" />
                </image>
             </ImageView>
             <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="250.0">
                <image>
-                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+                  <Image url="@../../../../../resources/icons/ic_change_lowercase.png" />
                </image>
             </ImageView>
             <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="480.0">
                <image>
-                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+                  <Image url="@../../../../../resources/icons/ic_change_lowercase.png" />
                </image>
             </ImageView>
             <TextArea fx:id="descricao" maxHeight="100.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="745.0" />
             <Label text="Descrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="720.0" />
             <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="720.0">
                <image>
-                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+                  <Image url="@../../../../../resources/icons/ic_change_lowercase.png" />
                </image>
             </ImageView>
          </children>

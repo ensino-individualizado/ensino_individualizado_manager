@@ -14,7 +14,7 @@
                 <Label styleClass="texto-fonte-padrao" text="Selecione o Tipo:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
                 <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
                     <image>
-                        <Image url="@../../../../../resources/icons/text/png/48/ic_numbering_add.png" />
+                        <Image url="@../../../../../resources/icons/ic_numbering_add.png" />
                     </image>
                 </ImageView>
             </children>
