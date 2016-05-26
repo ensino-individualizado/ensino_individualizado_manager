@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" styleClass="fundo-branco" stylesheets="@../../../../../resources/css/material-default-style.css" xmlns="http://javafx.com/javafx/8" fx:controller="Visao.Administracao.PaineisInternos.Visualizar.Turma.TurmasController">
+    <stylesheets>
+        <URL value="@../../../../../resources/css/material-default-style.css" />
+    </stylesheets>
+    <children>
+        <fx:include fx:id="toolBar" source="../../../Componentes/ToolBar/ToolBar.fxml"/>
+        <TableView fx:id="tabela" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+            <columns>
+                <TableColumn fx:id="coluna_id" maxWidth="70.0" minWidth="50.0" prefWidth="-1.0" text="ID" />
+                <TableColumn fx:id="coluna_nome" prefWidth="200.0" text="Nome" />
+                <TableColumn fx:id="coluna_descricao" prefWidth="300.0" text="Descriçao" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </children>
+</AnchorPane>

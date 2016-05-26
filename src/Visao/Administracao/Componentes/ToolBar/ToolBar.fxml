@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.lang.*?>
+<ToolBar minHeight="-Infinity" minWidth="-Infinity" styleClass="fundo-verde" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.Componentes.ToolBar.ToolBar">
+    <items>
+       <TextField fx:id="filtro" prefHeight="26.0" prefWidth="459.0">
+          <styleClass>
+             <String fx:value="entrada-cor-azul" />
+             <String fx:value="entrada" />
+             <String fx:value="borda-raio-sem" />
+          </styleClass>
+       </TextField>
+       <Button fx:id="filtrar" layoutX="50.0" layoutY="50.0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#applyFilter">
+           <graphic>
+               <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@../../../../resources/icons/text/png/48/ic_search.png" />
+                   </image>
+               </ImageView>
+           </graphic>
+          <styleClass>
+             <String fx:value="botao" />
+             <String fx:value="botao-fundo-cor-verde" />
+          </styleClass>
+       </Button>
+       <Separator orientation="VERTICAL" prefHeight="40.0" prefWidth="9.0">
+          <styleClass>
+             <String fx:value="fundo-verde" />
+             <String fx:value="borda-raio-sem" />
+          </styleClass>
+       </Separator>
+       <Button fx:id="apagar" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#delete">
+           <styleClass>
+               <String fx:value="botao" />
+               <String fx:value="botao-fundo-cor-verde" />
+           </styleClass>
+           <graphic>
+               <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" translateX="-4.0">
+                   <image>
+                       <Image url="@../../../../resources/icons/general/png/48/ic_trash_can.png" />
+                   </image>
+               </ImageView>
+           </graphic>
+       </Button>
+       <Button fx:id="editar" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#edit">
+           <styleClass>
+              <String fx:value="botao" />
+              <String fx:value="botao-fundo-cor-verde" />
+           </styleClass>
+           <graphic>
+               <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@../../../../resources/icons/general/png/48/ic_group_edit.png" />
+                   </image>
+               </ImageView>
+           </graphic>
+       </Button>
+      <Button fx:id="info" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" mnemonicParsing="false" onAction="#info">
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="botao-fundo-cor-verde" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../resources/icons/general/png/48/ic_info.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </items>
+</ToolBar>

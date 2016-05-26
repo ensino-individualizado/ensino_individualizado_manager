@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<Accordion xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.Componentes.MenuLateral.MenuLateralController">
+   <padding>
+      <Insets bottom="1.0" />
+   </padding>
+   <panes>
+      <TitledPane text="Novo">
+         <content>
+            <VBox fx:id="novo_opcoes" spacing="2.0" styleClass="fundo-verde">
+               <children>
+                  <Button fx:id="novo_turma" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Turma">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/general/png/48/ic_group.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_aluno" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Aluno">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_id.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_palavra" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Palavra">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_spell_check.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_avaliacao" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Avaliação">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_enunciado" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Enunciado" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_select_all2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_tentativa" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Tentativa" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_numbering.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_bloco" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Bloco" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="novo_treino" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Treino" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_full_screen_reading.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                    </Button>
+               </children>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </VBox>
+         </content>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../resources/icons/general/png/48/ic_add.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="texto-tipo-negrito" />
+            <String fx:value="texto-cor-branco" />
+            <String fx:value="texto-tamanho-grande" />
+            <String fx:value="texto-alinhamento-esquerda" />
+            <String fx:value="painel-rotulado-fundo-cor-verde" />
+         </styleClass>
+      </TitledPane>
+      <TitledPane text="Visualizar">
+         <content>
+            <VBox spacing="2.0" styleClass="fundo-verde">
+               <children>
+                  <Button fx:id="visualizar_turmas" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Turmas">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/general/png/48/ic_group_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_alunos" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Alunos">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_id_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_palavras" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Palavras">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_spell_check_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_avaliacoes" alignment="TOP_LEFT" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Avaliações">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model2_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_enunciados" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Enunciados" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_select_all2_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_tentativas" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Tentativas" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_numbering_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_blocos" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Blocos" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/networking/png/48/ic_osi_model_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                  </Button>
+                  <Button fx:id="visualizar_treinos" alignment="TOP_LEFT" disable="true" minWidth="200.0" mnemonicParsing="false" onAction="#opcaoPainel" text="Treinos" visible="false">
+                     <graphic>
+                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../resources/icons/text/png/48/ic_full_screen_reading_find.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="botao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="botao-fundo-cor-verde" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-medio" />
+                        <String fx:value="texto-alinhamento-esquerda" />
+                     </styleClass>
+                    </Button>
+               </children>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </VBox>
+         </content>
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../resources/icons/general/png/48/ic_monitor.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="texto-cor-branco" />
+            <String fx:value="texto-tipo-negrito" />
+            <String fx:value="texto-tamanho-grande" />
+            <String fx:value="painel-rotulado" />
+            <String fx:value="painel-rotulado-fundo-cor-verde" />
+            <String fx:value="fundo-verde" />
+         </styleClass>
+      </TitledPane>
+   </panes>
+</Accordion>

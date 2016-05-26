@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.*?>
+<BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.Visualizar.Palavras.PalavrasController">
+   <top>
+      <fx:include fx:id="toolBar" source="../../../Componentes/ToolBar/ToolBar.fxml" />
+   </top>
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="coluna_id" maxWidth="70.0" minWidth="-Infinity" prefWidth="70.0" text="ID" />
+          <TableColumn fx:id="coluna_palavra" maxWidth="610.0" minWidth="-Infinity" prefWidth="610.0" resizable="false" text="Palavra" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<AnchorPane styleClass="fundo-branco" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms.DitadoController">
+    <children>
+        <ImageView layoutX="100.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../../resources/icons/text/png/48/ic_spell_check.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="117.0" layoutY="276.0" text="Selecione a palavra a ser reproduzida" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+        <ListView fx:id="palavras" maxHeight="150.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0" />
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="582.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="210.0">
+            <image>
+                <Image url="@../../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="70.0" layoutY="582.0" text="Silabas possíveis de serem escolhidas" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="210.0" />
+        <TextField fx:id="silaba" layoutX="70.0" layoutY="607.0" promptText="Digite as silabas e adicione com o botao ao lado" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="235.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Button layoutX="597.0" layoutY="607.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#adicionarSilaba" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="235.0">
+            <styleClass>
+                <String fx:value="botao" />
+                <String fx:value="botao-fundo-cor-azul" />
+                <String fx:value="borda-raio-sem" />
+            </styleClass>
+            <graphic>
+                <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                    <image>
+                        <Image url="@../../../../../../resources/icons/general/png/48/ic_add.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+          <ListView fx:id="silabas" prefHeight="150.0" prefWidth="565.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="265.0" />
+    </children>
+</AnchorPane>

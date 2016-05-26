@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.*?>
+<BorderPane style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Palavra.PalavraController">
+    <center>
+        <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" style="-fx-background-color: white;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <fx:include fx:id="formulario" source="PalavraForm.fxml" />
+            </content>
+        </ScrollPane>
+    </center>
+    <bottom>
+        <fx:include fx:id="salvarCancelar" source="../../../Componentes/SalvarCancelar/SalvarCancelar.fxml" />
+    </bottom>
+</BorderPane>

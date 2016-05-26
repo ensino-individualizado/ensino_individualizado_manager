@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minWidth="650.0" prefHeight="440.0" prefWidth="975.0" style="-fx-background-color: white;" stylesheets="@../../../../../resources/css/material-default-style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.Visualizar.Palavras.PalavraInfoController">
+    <children>
+        <Label text="Palavra" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0">
+            <styleClass>
+                <String fx:value="rotulo" />
+                <String fx:value="text-small" />
+            </styleClass>
+        </Label>
+        <TextField fx:id="palavra" editable="false" prefHeight="25.0" prefWidth="400.0" promptText="Palavra" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="40.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Label text="Audio" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0">
+            <styleClass>
+                <String fx:value="rotulo" />
+                <String fx:value="texto-small" />
+                <String fx:value="texto-tipo-negrito" />
+            </styleClass>
+        </Label>
+        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../resources/icons/text/png/48/ic_spell_check.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
+            <image>
+                <Image url="@../../../../../resources/icons/multimedia/png/48/ic_radio_microphone.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="510.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../resources/icons/networking/png/48/ic_satellite2.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="275.0">
+            <image>
+                <Image url="@../../../../../resources/icons/general/png/48/ic_video.png" />
+            </image>
+        </ImageView>
+        <Label text="Video" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="275.0" />
+        <Label text="Silabas" AnchorPane.leftAnchor="565.0" AnchorPane.topAnchor="275.0" />
+        <ScrollPane fitToHeight="true" fitToWidth="true" minWidth="400.0" prefHeight="130.0" prefWidth="400.0" style="-fx-padding: 0;" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="565.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="300.0">
+            <content>
+                <ListView fx:id="silabas" />
+            </content>
+        </ScrollPane>
+        <ImageView fitHeight="48.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="510.0" AnchorPane.topAnchor="275.0">
+            <image>
+                <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+            </image>
+        </ImageView>
+        <Label text="Imagem" AnchorPane.leftAnchor="565.0" AnchorPane.topAnchor="15.0" />
+        <Label text="Transcrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="150.0" />
+        <TextArea fx:id="transcricaoAudio" editable="false" prefHeight="70.0" prefWidth="400.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="175.0" />
+        <TextArea fx:id="descricaoVideo" editable="false" prefHeight="70.0" prefWidth="400.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="360.0" />
+        <Label text="Descrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="335.0" />
+      <ImageView fx:id="imagem" fitHeight="211.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="195.0" AnchorPane.leftAnchor="565.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0" />
+
+      <Button mnemonicParsing="false" onAction="#playAudio" text="Play" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="115.0">
+          <graphic>
+              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../../../../../resources/icons/multimedia/png/48/ic_play.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="botao-fundo-cor-branco" />
+            <String fx:value="borda-raio-sem" />
+         </styleClass>
+      </Button>
+      <Button fx:id="playVideoButton" mnemonicParsing="false" onAction="#playVideo" text="Play" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="300.0">
+          <graphic>
+              <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../../../../../resources/icons/multimedia/png/48/ic_play.png" />
+                  </image>
+              </ImageView>
+          </graphic>
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="botao-fundo-cor-branco" />
+            <String fx:value="borda-raio-sem" />
+         </styleClass>
+      </Button>
+    </children>
+</AnchorPane>

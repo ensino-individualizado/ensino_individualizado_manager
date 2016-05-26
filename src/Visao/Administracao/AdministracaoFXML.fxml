@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.String?>
+<AnchorPane id="AnchorPane" minHeight="550.0" minWidth="850.0" styleClass="fundo-branco" stylesheets="@../../resources/css/material-default-style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.AdministracaoController">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="fundo-verde" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <ToolBar styleClass="fundo-azul">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <items>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/icons/general/png/48/ic_administrator.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="SISTEMA DE ENSINO INDIVIDUALIZADO - ADMINISTRAÇÃO">
+                     <styleClass>
+                        <String fx:value="texto-fonte-padrao" />
+                        <String fx:value="texto-tipo-negrito" />
+                        <String fx:value="texto-cor-branco" />
+                        <String fx:value="texto-tamanho-grande" />
+                     </styleClass>
+                  </Label>
+                  <Button fx:id="barraMenu_telaCheia" maxHeight="33.0" maxWidth="33.0" minHeight="33.0" minWidth="33.0" mnemonicParsing="false" onAction="#telaCheia" prefHeight="33.0" prefWidth="33.0" styleClass="botao-fundo-cor-azul">
+                      <graphic>
+                          <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                              <image>
+                                  <Image url="@../../resources/icons/general/png/48/fullscreen-icon.png" />
+                              </image>
+                          </ImageView>
+                      </graphic>
+                  </Button>
+               </items>
+            </ToolBar>
+         </top>
+         <center>
+          <AnchorPane fx:id="pane" minHeight="500.0" minWidth="660.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="202.0" layoutY="233.0" prefHeight="35.0" prefWidth="256.0" text="Utilize o menu ao lado para realizar operações" />
+               </children></AnchorPane>
+         </center>
+         <left>
+              <fx:include fx:id="menuLateral" source="Componentes/MenuLateral/MenuLateral.fxml" />
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

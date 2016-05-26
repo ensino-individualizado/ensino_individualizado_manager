@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.Visualizar.Alunos.AlunoController">
+    <top>
+        <fx:include fx:id="toolBar" source="../../../Componentes/ToolBar/ToolBar.fxml" />
+
+    </top>
+    <center>
+        <TableView fx:id="tabela" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+            <columns>
+                <TableColumn fx:id="coluna_id" maxWidth="70.0" minWidth="50.0" prefWidth="-1.0" text="ID" />
+                <TableColumn fx:id="coluna_nome" prefWidth="439.0" text="Nome" />
+                <TableColumn fx:id="coluna_nascimento" prefWidth="192.0" text="Data de Nascimento" />
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+            </columnResizePolicy>
+        </TableView>
+    </center>
+</BorderPane>

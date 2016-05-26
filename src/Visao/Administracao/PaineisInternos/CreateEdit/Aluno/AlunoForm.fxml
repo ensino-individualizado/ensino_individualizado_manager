@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Aluno.AlunoFormController">
+    <children>
+        <ImageView layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../resources/icons/general/png/48/ic_man.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="63.0" layoutY="14.0" styleClass="texto-fonte-padrao" text="Nome" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+        <TextField fx:id="nome" layoutX="63.0" layoutY="31.0" promptText="Nome do aluno" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+                <String fx:value="texto-fonte-padrao" />
+            </styleClass>
+        </TextField>
+        <ImageView layoutX="14.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="165.0">
+            <image>
+                <Image url="@../../../../../resources/icons/communications/png/48/ic_group2.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="69.0" layoutY="150.0" text="Turma" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="165.0">
+            <styleClass>
+                <String fx:value="texto-fonte-padrao" />
+                <String fx:value="texto-tamanho-medio" />
+            </styleClass>
+        </Label>
+        <ComboBox fx:id="turmas" layoutX="69.0" layoutY="175.0" prefWidth="150.0" promptText="SELECIONAR" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="190.0">
+            <styleClass>
+                <String fx:value="texto-tipo-negrito" />
+                <String fx:value="texto-cor-branco" />
+            </styleClass>
+        </ComboBox>
+        <Label layoutX="63.0" layoutY="96.0" text="Data de Nascimento" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0" />
+        <DatePicker fx:id="data_nascimento" layoutX="70.0" layoutY="117.0" prefHeight="25.0" prefWidth="515.0" promptText="Digite a data no formado DD/MM/AAAA ou clique no botão ao lado para selecioná-la" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="115.0" />
+        <ImageView layoutX="361.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
+            <image>
+                <Image url="@../../../../../resources/icons/general/png/48/ic_calendar.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

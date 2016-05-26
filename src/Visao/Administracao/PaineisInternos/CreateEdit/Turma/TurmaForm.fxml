@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<AnchorPane id="AnchorPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Turma.TurmaFormController">
+    <children>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../resources/icons/networking/png/48/ic_chat.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="63.0" layoutY="15.0" text="Nome" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0">
+            <styleClass>
+                <String fx:value="texto-fonte-padrao" />
+                <String fx:value="texto-tipo-normal" />
+            </styleClass>
+        </Label>
+        <TextField fx:id="nome" layoutX="63.0" layoutY="39.0" promptText="Nome da turma" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+                <String fx:value="texto-fonte-padrao" />
+            </styleClass>
+        </TextField>
+        <TextArea fx:id="descricao" minWidth="-Infinity" promptText="Descrição sobre a turma" wrapText="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="115.0">
+         <styleClass>
+            <String fx:value="borda-raio-sem" />
+            <String fx:value="texto-tipo-normal" />
+            <String fx:value="texto-fonte-padrao" />
+         </styleClass>
+        </TextArea>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="312.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
+            <image>
+                <Image url="@../../../../../resources/icons/text/png/48/ic_select_all2.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="63.0" layoutY="90.0" styleClass="texto-fonte-padrao" text="Descrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0" />
+    </children>
+</AnchorPane>

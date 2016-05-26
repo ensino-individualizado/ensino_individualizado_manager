@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<BorderPane styleClass="fundo-branco" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.TentativaController">
+    <top>
+        <AnchorPane BorderPane.alignment="CENTER">
+            <children>
+                <ComboBox fx:id="tipos" onAction="#swapPane" prefWidth="150.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0" />
+                <Label styleClass="texto-fonte-padrao" text="Selecione o Tipo:" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+                <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+                    <image>
+                        <Image url="@../../../../../resources/icons/text/png/48/ic_numbering_add.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </top>
+    <bottom>
+        <fx:include fx:id="salvarCancelar" source="../../../Componentes/SalvarCancelar/SalvarCancelar.fxml" />
+    </bottom>
+    <center>
+        <ScrollPane styleClass="fundo-branco" fitToWidth="true" hbarPolicy="NEVER" BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane styleClass="fundo-branco" fx:id="pane" />
+            </content>
+        </ScrollPane>
+    </center>
+</BorderPane>

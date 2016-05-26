@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" minWidth="650.0" prefHeight="825.0" prefWidth="650.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Palavra.PalavraFormController">
+    <children>
+        <Label text="Palavra" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0">
+            <styleClass>
+                <String fx:value="rotulo" />
+                <String fx:value="text-small" />
+            </styleClass>
+        </Label>
+        <TextField fx:id="palavra" onKeyTyped="#palavraAtualizada" promptText="Palavra" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Label text="Audio" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="90.0">
+            <styleClass>
+                <String fx:value="rotulo" />
+                <String fx:value="texto-small" />
+            <String fx:value="texto-tipo-negrito" />
+            </styleClass>
+        </Label>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../resources/icons/text/png/48/ic_spell_check.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="14.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="90.0">
+            <image>
+                <Image url="@../../../../../resources/icons/multimedia/png/48/ic_radio_microphone.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="485.0">
+            <image>
+                <Image url="@../../../../../resources/icons/networking/png/48/ic_satellite2.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="caminhoAudio" layoutX="70.0" layoutY="136.0" promptText="Digite o caminho do arquivo ou clique no botão ao lado para selecioná-lo" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="140.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Button layoutX="597.0" layoutY="136.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#inserirAudio" prefHeight="0.0" prefWidth="38.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="140.0">
+            <styleClass>
+                <String fx:value="botao" />
+                <String fx:value="borda-raio-sem" />
+                <String fx:value="botao-fundo-cor-azul" />
+            </styleClass>
+            <graphic>
+                <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../resources/icons/general/png/48/ic_folder2.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="300.0">
+            <image>
+                <Image url="@../../../../../resources/icons/general/png/48/ic_video.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="70.0" layoutY="295.0" text="Video" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="300.0" />
+        <TextField fx:id="caminhoVideo" layoutX="70.0" layoutY="320.0" promptText="Digite o caminho do arquivo ou clique no botão ao lado para selecioná-lo (Nao é obrigatório)" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="325.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Button layoutX="597.0" layoutY="320.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#inserirVideo" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="325.0">
+            <styleClass>
+                <String fx:value="botao" />
+                <String fx:value="borda-raio-sem" />
+                <String fx:value="botao-fundo-cor-azul" />
+            </styleClass>
+            <graphic>
+                <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../resources/icons/general/png/48/ic_folder2.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="70.0" layoutY="582.0" text="Silabas" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="560.0" />
+        <TextField fx:id="silaba" layoutX="70.0" layoutY="607.0" prefHeight="25.0" prefWidth="519.0" promptText="Digite as silabas e adicione com o botao ao lado" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="61.0" AnchorPane.topAnchor="585.0">
+            <styleClass>
+                <String fx:value="entrada" />
+                <String fx:value="entrada-cor-verde" />
+            </styleClass>
+        </TextField>
+        <Button layoutX="552.0" layoutY="585.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#adicionarSilaba" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="585.0">
+            <styleClass>
+                <String fx:value="botao" />
+                <String fx:value="botao-fundo-cor-azul" />
+                <String fx:value="borda-raio-sem" />
+            </styleClass>
+            <graphic>
+                <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                    <image>
+                        <Image url="@../../../../../resources/icons/general/png/48/ic_add.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="70.0" layoutY="637.0" maxHeight="151.0" minHeight="150.0" prefHeight="150.0" prefWidth="565.0" style="-fx-padding: 0;" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="612.0">
+            <content>
+                <ListView fx:id="silabas" prefHeight="150.0" prefWidth="565.0" />
+            </content>
+        </ScrollPane>
+        <ImageView fitHeight="48.0" fitWidth="48.0" layoutX="15.0" layoutY="582.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="560.0">
+            <image>
+                <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+            </image>
+        </ImageView>
+      <TextField fx:id="caminhoImagem" layoutX="70.0" layoutY="532.0" promptText="Digite o caminho do arquivo ou clique no botão ao lado para selecioná-lo" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="510.0">
+         <styleClass>
+            <String fx:value="entrada" />
+            <String fx:value="entrada-cor-verde" />
+         </styleClass>
+      </TextField>
+      <Label layoutX="70.0" layoutY="507.0" text="Imagem" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="485.0" />
+      <Button layoutX="597.0" layoutY="532.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#inserirImagem" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="510.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../resources/icons/general/png/48/ic_folder2.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="borda-raio-sem" />
+            <String fx:value="botao-fundo-cor-azul" />
+         </styleClass>
+      </Button>
+      <Label layoutX="94.0" layoutY="191.0" text="Arquivo" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="115.0" />
+      <Label layoutX="72.0" layoutY="181.0" text="Transcrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="180.0" />
+      <TextArea fx:id="transcricaoAudio" layoutX="70.0" layoutY="197.0" prefHeight="70.0" prefWidth="565.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="205.0" />
+      <TextArea fx:id="descricaoVideo" layoutX="63.0" layoutY="375.0" prefHeight="70.0" prefWidth="565.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="390.0" />
+      <Label layoutX="65.0" layoutY="359.0" text="Descrição" AnchorPane.topAnchor="365.0" />
+      <Button fx:id="autoGenButton" disable="true" layoutX="366.0" layoutY="783.0" mnemonicParsing="false" onAction="#gerarSilabas" text="Geraração Automática" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="15.0">
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="botao-fundo-cor-azul" />
+            <String fx:value="botao-levantado" />
+            <String fx:value="texto-cor-branco" />
+         </styleClass>
+      </Button>
+      <Button layoutX="597.0" layoutY="585.0" maxHeight="25.0" maxWidth="38.0" minHeight="25.0" minWidth="38.0" mnemonicParsing="false" onAction="#removerSilaba" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="585.0">
+         <styleClass>
+            <String fx:value="botao" />
+            <String fx:value="botao-fundo-cor-azul" />
+            <String fx:value="borda-raio-sem" />
+         </styleClass>
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+               <image>
+                  <Image url="@../../../../../resources/icons/general/png/48/ic_close.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>

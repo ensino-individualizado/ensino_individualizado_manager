@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane styleClass="fundo-branco" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms.LeituraController">
+    <children>
+        <ImageView layoutX="100.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../../resources/icons/text/png/48/ic_spell_check.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="117.0" layoutY="276.0" text="Escolha a palavra a ser lida" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+        <ListView fx:id="palavras" maxHeight="150.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0" />
+    </children>
+</AnchorPane>

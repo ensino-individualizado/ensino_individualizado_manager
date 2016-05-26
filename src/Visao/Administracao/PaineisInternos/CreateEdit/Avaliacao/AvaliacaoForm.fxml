@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fitToWidth="true" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Avaliacao.AvaliacaoFormController">
+   <content>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label text="Dissílabas" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+            <ScrollPane fitToWidth="true" minHeight="200.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+               <content>
+                  <ListView fx:id="dissilabas" minHeight="200.0" prefHeight="200.0" />
+               </content></ScrollPane>
+            <Label text="Trissílabas" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="250.0" />
+            <Label text="Dificuldades da Língua" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="480.0" />
+            <ScrollPane fitToWidth="true" minHeight="200.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="270.0">
+               <content>
+                  <ListView fx:id="trissilabas" minHeight="200.0" prefHeight="200.0" />
+               </content></ScrollPane>
+            <ScrollPane fitToWidth="true" minHeight="200.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="500.0">
+               <content>
+                  <ListView fx:id="dificuldades" minHeight="200.0" prefHeight="200.0" />
+               </content>
+            </ScrollPane>
+            <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+               <image>
+                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="250.0">
+               <image>
+                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="480.0">
+               <image>
+                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="descricao" maxHeight="100.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="745.0" />
+            <Label text="Descrição" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="720.0" />
+            <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="720.0">
+               <image>
+                  <Image url="@../../../../../resources/icons/text/png/48/ic_change_lowercase.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

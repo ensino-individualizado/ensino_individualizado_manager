@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane styleClass="fundo-branco" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms.NomearImagemController">
+    <children>
+        <ImageView layoutX="8.0" layoutY="246.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0">
+            <image>
+                <Image url="@../../../../../../resources/icons/networking/png/48/ic_satellite2.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="174.0" layoutY="250.0" text="Selecione a imagem a ser utilizada no enunciado e a palavra associada como resposta" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="15.0" />
+        <ScrollPane fitToWidth="true" layoutX="85.0" layoutY="249.0" maxHeight="150.0" minHeight="150.0" styleClass="fundo-branco" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+            <content>
+                <FlowPane fx:id="imagens" styleClass="fundo-branco" />
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
