@@ -64,7 +64,7 @@ public class AdministracaoMainController {
             Platform.exit();
         }
 
-        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(30.0));
+        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(0.30));
 
         //Tenta se conectar com o bd
         try {
@@ -88,7 +88,7 @@ public class AdministracaoMainController {
             Platform.exit();
         }
 
-        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(60.0));
+        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(0.60));
 
         //Carrega as fontes do sistema...
         Configuracao.carregarFontes();
@@ -97,7 +97,7 @@ public class AdministracaoMainController {
             //                             "A aplica��o ser� iniciada normalmente, mas poder� apresentar problemas na disposi��o dos componentes.");
         //}
 
-        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(100.0));
+        LauncherImpl.notifyPreloader(aplicacao, new Preloader.ProgressNotification(1.0));
 
         return (error);
     }

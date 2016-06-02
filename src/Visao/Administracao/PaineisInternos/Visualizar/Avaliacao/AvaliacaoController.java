@@ -57,19 +57,21 @@ public class AvaliacaoController extends RegionController implements RegionWithT
 
     @Override
     public void filter(String filter) {
-
+        throw new UnsupportedOperationException("Método filter não implementado");
     }
 
     @Override
     public void delete() {
-
+        throw new UnsupportedOperationException("Método delete não implementado");
     }
 
     @Override
     public void edit() {
+        throw new UnsupportedOperationException("Método edit não implementado");
     }
 
     @Override
     public void info() {
+        throw new UnsupportedOperationException("Método info não implementado");
     }
 }

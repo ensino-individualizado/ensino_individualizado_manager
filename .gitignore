@@ -6,7 +6,11 @@ hs_err_pid*
 /.idea
 /enunciados_tipo
 /out
+/src/META-INF
 /src/resources/images
 bd_config.txt
 config.txt
 Ensino-Individualizado_Administracao.iml
+ensino_individualizado_manager.properties
+ensino_individualizado_manager.xml
+module_ensino-individualizado_administracao.xml

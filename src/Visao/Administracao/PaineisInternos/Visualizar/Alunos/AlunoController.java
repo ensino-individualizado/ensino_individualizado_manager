@@ -58,7 +58,7 @@ public class AlunoController extends RegionController implements RegionWithTooll
 
         this.toolBarController.setFatherController(this);
         this.toolBarController.setWindowController(this.getWindowController());
-        this.toolBarController.setSupported(false, true, true, true);
+        this.toolBarController.setSupported(false, true, true, false);
 
         this.atualizarTabela();
     }
