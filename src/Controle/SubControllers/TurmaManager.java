@@ -6,8 +6,8 @@ import Visao.Administracao.FxmlReference;
 import Visao.Administracao.PaineisInternos.CreateEdit.Turma.TurmaController;
 import Visao.Administracao.PaineisInternos.CreateEdit.Turma.TurmaFormController;
 import Visao.Administracao.PaineisInternos.Visualizar.Turma.TurmasController;
-import Visao.Dialog.SimpleDialog;
-import Visao.Mensagens.JanelaDeMensagem;
+import com.gustavo.utils.javafx.Dialog.JanelaDeMensagem;
+import com.gustavo.utils.javafx.Dialog.SimpleDialog;
 import javafx.application.Platform;
 
 import java.io.IOException;

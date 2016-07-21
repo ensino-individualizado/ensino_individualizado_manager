@@ -6,9 +6,9 @@
 package Visao.Administracao;
 
 import Controle.AdministracaoMainController;
-import Visao.AcceptMessage;
 import Visao.Administracao.Componentes.MenuLateral.MenuLateralController;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.AcceptMessage;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;

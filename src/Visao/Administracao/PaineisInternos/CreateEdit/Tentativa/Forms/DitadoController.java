@@ -2,7 +2,7 @@ package Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms;
 
 import Modelo.RecursoDidatico.Palavra;
 import Modelo.RecursoDidatico.Silaba;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;

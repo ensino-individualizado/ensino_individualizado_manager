@@ -2,7 +2,7 @@ package Visao.Administracao.PaineisInternos.CreateEdit.Tentativa;
 
 import Controle.AdministracaoMainController;
 import Visao.Administracao.Componentes.SalvarCancelar.SalvarCancelarController;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.layout.AnchorPane;

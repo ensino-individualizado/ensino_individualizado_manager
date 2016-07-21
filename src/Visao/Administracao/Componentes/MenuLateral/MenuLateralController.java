@@ -5,8 +5,8 @@
  */
 package Visao.Administracao.Componentes.MenuLateral;
 
-import Visao.AcceptMessage;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.AcceptMessage;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

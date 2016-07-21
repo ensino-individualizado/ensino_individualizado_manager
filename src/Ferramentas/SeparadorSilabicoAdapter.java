@@ -1,8 +1,8 @@
-package Ferramentas.SeparadorSilabico;
+package Ferramentas;
 
 import Modelo.RecursoDidatico.Silaba;
+import com.gustavo.utils.language.SyllableSeparator.pt_br.SeparadorSilabico;
 
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collection;
 

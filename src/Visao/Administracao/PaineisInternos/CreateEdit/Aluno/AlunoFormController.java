@@ -7,7 +7,7 @@ package Visao.Administracao.PaineisInternos.CreateEdit.Aluno;
 
 import Ferramentas.DateParser;
 import Modelo.Turma;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DateCell;

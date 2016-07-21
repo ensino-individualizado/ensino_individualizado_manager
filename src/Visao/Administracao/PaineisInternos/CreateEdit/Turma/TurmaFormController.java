@@ -5,7 +5,7 @@
  */
 package Visao.Administracao.PaineisInternos.CreateEdit.Turma;
 
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;

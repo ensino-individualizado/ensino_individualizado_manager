@@ -4,19 +4,12 @@ import Controle.AdministracaoMainController;
 import DAO.PalavraDAO;
 import Modelo.RecursoDidatico.Palavra;
 import Visao.Administracao.Componentes.SalvarCancelar.SalvarCancelarController;
-import Visao.ControllerHierarchy.RegionController;
-import Visao.Mensagens.JanelaDeMensagem;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.Dialog.JanelaDeMensagem;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.concurrent.ThreadFactory;
 
 /**
  * Created by Gustavo Freitas on 18/10/2015.

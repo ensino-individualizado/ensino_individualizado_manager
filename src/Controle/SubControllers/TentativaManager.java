@@ -2,7 +2,7 @@ package Controle.SubControllers;
 
 import Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms.ApontarFiguraFormController;
 import Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.TentativaController;
-import Visao.Mensagens.JanelaDeMensagem;
+import com.gustavo.utils.javafx.Dialog.JanelaDeMensagem;
 
 /**
  * Created by Gustavo Freitas on 17/10/2015.

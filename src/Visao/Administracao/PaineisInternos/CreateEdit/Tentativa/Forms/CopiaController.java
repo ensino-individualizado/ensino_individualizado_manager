@@ -1,7 +1,7 @@
 package Visao.Administracao.PaineisInternos.CreateEdit.Tentativa.Forms;
 
 import Modelo.RecursoDidatico.Palavra;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 

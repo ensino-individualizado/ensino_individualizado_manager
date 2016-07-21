@@ -2,7 +2,7 @@ package Controle.SubControllers;
 
 import DAO.PalavraDAO;
 import Ferramentas.FileSaver;
-import Ferramentas.SeparadorSilabico.SeparadorSilabicoAdapter;
+import Ferramentas.SeparadorSilabicoAdapter;
 import Modelo.Construtores.PalavraBuilder;
 import Modelo.RecursoDidatico.Palavra;
 import Modelo.RecursoDidatico.Silaba;
@@ -11,12 +11,11 @@ import Visao.Administracao.PaineisInternos.CreateEdit.Palavra.PalavraController;
 import Visao.Administracao.PaineisInternos.CreateEdit.Palavra.PalavraFormController;
 import Visao.Administracao.PaineisInternos.Visualizar.Palavras.PalavraInfoController;
 import Visao.Administracao.PaineisInternos.Visualizar.Palavras.PalavrasController;
-import Visao.Dialog.SimpleDialog;
-import Visao.Dialog.SimpleMediaPlayerDialog.SimpleMediaPlayerDialog;
-import Visao.Mensagens.JanelaDeMensagem;
+import com.gustavo.utils.javafx.Dialog.JanelaDeMensagem;
+import com.gustavo.utils.javafx.Dialog.SimpleDialog;
+import com.gustavo.utils.javafx.Dialog.SimpleMediaPlayerDialog.SimpleMediaPlayerDialog;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Collection;
 
 /**

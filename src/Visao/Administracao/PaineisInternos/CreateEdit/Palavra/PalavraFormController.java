@@ -7,8 +7,8 @@ package Visao.Administracao.PaineisInternos.CreateEdit.Palavra;
 
 import Controle.AdministracaoMainController;
 import Modelo.RecursoDidatico.Silaba;
-import Visao.ControllerHierarchy.RegionController;
-import Visao.Mensagens.ObterArquivo;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.Dialog.GetFile;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -56,17 +56,17 @@ public class PalavraFormController extends RegionController {
 
     @FXML
     public void inserirAudio(ActionEvent evento){
-        this.caminhoAudio.setText(ObterArquivo.obterAudio(this.windowController.getStage()));
+        this.caminhoAudio.setText(GetFile.getFile(this.windowController.getStage(), null, GetFile.audioPreset));
     }
     
     @FXML
     public void inserirImagem(ActionEvent evento){
-        this.caminhoImagem.setText(ObterArquivo.obterImagem(this.windowController.getStage()));
+        this.caminhoImagem.setText(GetFile.getFile(this.windowController.getStage(), null, GetFile.imagePreset));
     } 
     
     @FXML
     public void inserirVideo(ActionEvent evento){
-        this.caminhoVideo.setText(ObterArquivo.obterVideo(this.windowController.getStage()));
+        this.caminhoVideo.setText(GetFile.getFile(this.windowController.getStage(), null, GetFile.videoPreset));
     }
     
     @FXML

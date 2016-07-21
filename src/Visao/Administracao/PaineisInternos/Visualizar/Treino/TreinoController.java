@@ -1,7 +1,7 @@
 package Visao.Administracao.PaineisInternos.Visualizar.Treino;
 
 import Visao.Administracao.Componentes.ToolBar.RegionWithToollbarEmbeded;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 
 import java.net.URL;
 import java.util.ResourceBundle;

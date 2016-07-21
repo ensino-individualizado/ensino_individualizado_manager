@@ -7,7 +7,7 @@ package Visao.Administracao.PaineisInternos.CreateEdit.Aluno;
 
 import Controle.AdministracaoMainController;
 import Visao.Administracao.Componentes.SalvarCancelar.SalvarCancelarController;
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.fxml.FXML;
 
 import java.net.URL;

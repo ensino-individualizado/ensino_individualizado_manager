@@ -5,7 +5,7 @@
  */
 package Visao.Administracao.Componentes.ToolBar;
 
-import Visao.ControllerHierarchy.RegionController;
+import com.gustavo.utils.javafx.ControllerHierarchy.RegionController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

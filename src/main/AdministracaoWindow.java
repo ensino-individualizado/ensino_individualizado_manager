@@ -6,12 +6,9 @@
 package main;
 
 import Controle.AdministracaoMainController;
-import DAO.PlayListDAO;
 import Ferramentas.FileSaver;
 import Ferramentas.GerenciadorBD;
-import Modelo.RecursoDidatico.PlayList.PlayList;
-import Visao.ControllerHierarchy.WindowController;
-import Visao.Mensagens.JanelaDeMensagem;
+import com.gustavo.utils.javafx.ControllerHierarchy.WindowController;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
@@ -34,7 +31,7 @@ public class AdministracaoWindow extends WindowController{
         super.start(primaryStage, "/Visao/Administracao/AdministracaoFXML.fxml", "Administração");
 
         getStage().getIcons().clear();
-        getStage().getIcons().add(new Image("/resources/icons/mainIcon.png"));
+        getStage().getIcons().add(new Image("/resources/icons/ic_app.png"));
         getStage().setWidth(1000);
         super.show();
     }
